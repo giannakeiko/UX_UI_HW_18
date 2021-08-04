@@ -1,0 +1,63 @@
+.navigation {
+    width: 100%;
+    height: 50px;
+    background-color: slategray;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+inline-block li {
+    width: 73%;
+    padding: 1%;
+}
+inline-block ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin:0 auto;
+}
+footer {
+    background-color: #373738;
+}
+.ul {
+    display: inline-block;
+    vertical-align: top;
+}
+<!-- My UX Skills section coded using CSS flex-->
+.flexContainer {
+    display: flex;
+    width: 33%;
+}
+<!-- My Work Section Constructed using CSS Grid-->
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea';
+}
+@media only screen and (max-width:600){
+.flexContainer {
+    display: column;
+    width: 100%;
+}
+#categoryGrid {
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-areas: myArea myArea myArea myArea;
+}
+}
